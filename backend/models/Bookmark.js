@@ -46,3 +46,5 @@ bookmarkSchema.index({ tags: 1 });
 bookmarkSchema.index({ user: 1 });
 
 module.exports = mongoose.model('Bookmark', bookmarkSchema);
+
+// code submitted by Raj Krishna Mishra
